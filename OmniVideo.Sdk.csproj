@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>OmniVideo</RootNamespace>
+    <AssemblyName>OmniVideo.Sdk</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Keep tests out of the library build -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);tests/**</DefaultItemExcludes>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+
+    <!-- NuGet metadata -->
+    <PackageId>OmniVideo.Sdk</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Omni Video</Authors>
+    <Company>Omni Video</Company>
+    <Description>Omni Video .NET SDK — generate video and image content with the Gemini Omni Video series of models. Sign in at https://omnivideo.net/ to get an API key.</Description>
+    <PackageProjectUrl>https://omnivideo.net/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/beamtrace/omnivideo-sdk-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>omnivideo;omni-video;gemini-omni-video;ai;video;image;seedance;sdk</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <Compile Remove="tests/**" />
+    <None Remove="tests/**" />
+    <EmbeddedResource Remove="tests/**" />
+  </ItemGroup>
+
+</Project>

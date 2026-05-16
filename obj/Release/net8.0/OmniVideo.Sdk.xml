@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OmniVideo.Sdk</name>
+    </assembly>
+    <members>
+        <member name="T:OmniVideo.OmniVideoClient">
+            <summary>
+            Client for the Omni Video API (<see href="https://omnivideo.net/"/>) — generate video and image
+            content with the Gemini Omni Video series of models.
+            </summary>
+        </member>
+        <member name="M:OmniVideo.OmniVideoClient.#ctor(System.String,System.String,System.Net.Http.HttpClient)">
+            <summary>
+            Construct a client. If <paramref name="apiKey"/> is null, the <c>OMNIVIDEO_API_KEY</c>
+            environment variable is read. Get a key from <see href="https://omnivideo.net/"/>.
+            </summary>
+        </member>
+        <member name="M:OmniVideo.OmniVideoClient.CreateTaskAsync(OmniVideo.CreateTaskInput,System.Threading.CancellationToken)">
+            <summary>Submit a generation job.</summary>
+        </member>
+        <member name="M:OmniVideo.OmniVideoClient.GetTaskAsync(System.String,System.Threading.CancellationToken)">
+            <summary>Fetch the current state of a task.</summary>
+        </member>
+        <member name="M:OmniVideo.OmniVideoClient.RunAsync(OmniVideo.CreateTaskInput,OmniVideo.RunOptions,System.Threading.CancellationToken)">
+            <summary>Create a task and poll until it reaches a terminal state.</summary>
+        </member>
+        <member name="T:OmniVideo.CreateTaskInput">
+            <summary>Request body for <c>POST /tasks/create</c>.</summary>
+        </member>
+        <member name="T:OmniVideo.RunOptions">
+            <summary>Polling configuration for <see cref="M:OmniVideo.OmniVideoClient.RunAsync(OmniVideo.CreateTaskInput,OmniVideo.RunOptions,System.Threading.CancellationToken)"/>.</summary>
+        </member>
+        <member name="T:OmniVideo.OmniVideoException">
+            <summary>Exception type raised by <see cref="T:OmniVideo.OmniVideoClient"/>.</summary>
+        </member>
+        <member name="P:OmniVideo.OmniVideoException.Code">
+            <summary>Business code returned by the API (200=ok, 0=biz fail), if any.</summary>
+        </member>
+        <member name="P:OmniVideo.OmniVideoException.Status">
+            <summary>HTTP status code, if applicable.</summary>
+        </member>
+        <member name="T:OmniVideo.TaskInfo">
+            <summary>State of a generation job returned by the Omni Video API.</summary>
+        </member>
+    </members>
+</doc>

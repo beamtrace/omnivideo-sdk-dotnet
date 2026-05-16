@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OmniVideo.Sdk</id>
+    <version>0.1.0</version>
+    <authors>Omni Video</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://omnivideo.net/</projectUrl>
+    <description>Omni Video .NET SDK — generate video and image content with the Gemini Omni Video series of models. Sign in at https://omnivideo.net/ to get an API key.</description>
+    <tags>omnivideo omni-video gemini-omni-video ai video image seedance sdk</tags>
+    <repository type="git" url="https://github.com/beamtrace/omnivideo-sdk-dotnet" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/ab/aiRuntime/omnivideo-sdks/dotnet/bin/Release/net8.0/OmniVideo.Sdk.dll" target="lib/net8.0/OmniVideo.Sdk.dll" />
+    <file src="/Users/ab/aiRuntime/omnivideo-sdks/dotnet/bin/Release/net8.0/OmniVideo.Sdk.xml" target="lib/net8.0/OmniVideo.Sdk.xml" />
+    <file src="/Users/ab/aiRuntime/omnivideo-sdks/dotnet/README.md" target="/README.md" />
+  </files>
+</package>

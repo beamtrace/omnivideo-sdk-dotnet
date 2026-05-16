@@ -1,0 +1,13 @@
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/bin/Release/net8.0/OmniVideo.Sdk.deps.json
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/bin/Release/net8.0/OmniVideo.Sdk.dll
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/bin/Release/net8.0/OmniVideo.Sdk.pdb
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/bin/Release/net8.0/OmniVideo.Sdk.xml
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.AssemblyInfoInputs.cache
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.AssemblyInfo.cs
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.csproj.CoreCompileInputs.cache
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.dll
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/refint/OmniVideo.Sdk.dll
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.xml
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/OmniVideo.Sdk.pdb
+/Users/ab/aiRuntime/omnivideo-sdks/dotnet/obj/Release/net8.0/ref/OmniVideo.Sdk.dll
